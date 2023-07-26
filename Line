@@ -1,0 +1,6 @@
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Graphics g = panel1.CreateGraphics();
+            g.DrawLine(Pens.Red, 0, 0, 200, 200);
+
+        }
